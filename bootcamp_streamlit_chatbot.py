@@ -119,5 +119,5 @@ if query:
             message(st.session_state["past"][i], is_user=True, key=str(i)+"_user")
             message(st.session_state["generated"][i], is_user=False, key=str(i)+"_assistant")
 
-    with st.expander("show messages"):
-        st.write(st.session_state["messages"])
+#    with st.expander("show messages"):
+#        st.write(st.session_state["messages"])
