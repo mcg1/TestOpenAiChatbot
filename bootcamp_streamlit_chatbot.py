@@ -85,7 +85,7 @@ def update_chat(messages,role,content):
     return messages
 
 
-st.title("Land Thermal Camera Bot")
+st.title("AMETEK Land Thermal Camera Bot")
 st.subheader("A thermal camera and an AI assistant transform mere obstacles into gateways of innovation.")
 
 model =st.selectbox(
